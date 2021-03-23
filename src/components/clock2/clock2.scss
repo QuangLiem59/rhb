@@ -1,0 +1,16 @@
+.clock2 {
+    $siz: 300px;
+
+    display: inline-block;
+    width: $siz;
+
+    border: 1px solid green;
+    border-radius: 50px;
+    padding: 10px 20px;
+    text-align: center;
+    &t {
+        font-size: 50px;
+        font-weight: bold;
+        color: indigo;
+    }
+}
